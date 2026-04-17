@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         if (args.length != 1) {
-            System.err.println("Используйте: java -Xmx1G -jar name.jar <path-to-input.gz>");
+            System.err.println("Используйте: java -Xmx1G -jar {название проекта}.jar {полный путь к входному файлу}");
             return;
         }
         long start = System.currentTimeMillis();
